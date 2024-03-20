@@ -14,19 +14,19 @@ const routes = [
         component: () => import("@/views/NotFound.vue"),
     },
 
-    {
-        path: "/contacts/:id",
-        name: "contact.edit",
-        component: () => import("@/views/ContactEdit.vue"),
-        props: true // Truyền các biến trong $route.params vào làm props
-    },
+    // {
+    //     path: "/contacts/:id",
+    //     name: "contact.edit",
+    //     component: () => import("@/views/ContactEdit.vue"),
+    //     props: true // Truyền các biến trong $route.params vào làm props
+    // },
 
-    {
-        path: "/contacts",
-        name: "contactadd",
-        component: () => import("@/views/ContactAdd.vue"),
-        props: true 
-    },
+    // {
+    //     path: "/contacts",
+    //     name: "contactadd",
+    //     component: () => import("@/views/ContactAdd.vue"),
+    //     props: true 
+    // },
         
 ];
 const router = createRouter({
